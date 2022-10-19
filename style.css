@@ -1,0 +1,24 @@
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.container{
+  display: flex;
+  background-color: #dddddd;
+  height: 210px;
+  
+}
+
+.container div{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2rem;
+  background-color: aquamarine;
+  border-radius: 100%;
+  text-align: center;
+} 
+
+ 
