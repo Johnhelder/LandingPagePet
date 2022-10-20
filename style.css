@@ -1,24 +1,96 @@
 h2{
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2rem; 
+  color: rgb(2, 26, 18);
 }
 .container{
   display: flex;
-  background-color: #dddddd;
-  height: 210px;
-  
+  height: 210px;  
 }
 
-.container div{
+.conteudo{
+  flex: 1;
+   
+}
+
+.pets{
+  flex: 1; 
+}
+
+.conteudo2{
+  flex: 1;
+}
+
+.texto::after{
+  content: "1";
   width: 40px;
   height: 40px;
-  padding: 10px;
-  margin: 10px;
+  background-color: #F0E413;
+  border-radius: 80%;
   font-size: 2rem;
-  background-color: aquamarine;
-  border-radius: 100%;
+  padding: 10px; 
+  margin-left: 10px;
   text-align: center;
-} 
+}
 
+.texto1::after{
+  content: "2";
+  width: 40px;
+  height: 40px;
+  background-color: #2C566C;
+  border-radius: 80%;
+  font-size: 2rem;
+  padding: 10px; 
+  margin-left: 10px;
+  text-align: center;
+}
+
+.texto2::after{
+  content: "3";
+  width: 40px;
+  height: 40px;
+  background-color: #F0E413;
+  border-radius: 80%;
+  font-size: 2rem;
+  padding: 10px; 
+  margin-left: 10px;
+  text-align: center;
+}
+
+.texto3::before{
+  content: "4";
+  width: 40px;
+  height: 40px;
+  background-color: #2C566C;
+  border-radius: 80%;
+  font-size: 2rem;
+  padding: 10px; 
+  margin-right: 10px;
+  text-align: center;
+}
+
+.texto4::before{
+  content: "5";
+  width: 40px;
+  height: 40px;
+  background-color: #F0E413;
+  border-radius: 80%;
+  font-size: 2rem;
+  padding: 10px; 
+  margin-right: 10px;
+  text-align: center;
+}
+
+.texto5::before{
+  content: "6";
+  width: 10px;
+  height: 10px;
+  background-color: #2C566C;
+  border-radius: 80%;
+  font-size: 2rem;
+  padding: 10px;  
+  margin-right: 10px;
+  text-align: center;
+}
  
