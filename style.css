@@ -152,15 +152,27 @@ h2{
 }
 
 .animais-estimacao{
-  color: #8d8383;
+  color: #131212;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  width: 400px;
+}
+
+.animais-fantasticos{
+  color: #131212;
+  font-weight: 700;
   font-size: 13px;
   line-height: 18px;
   width: 400px;
 }
 
-.animais-fantasticos{
-  color: #8d8383;
-  font-size: 13px;
-  line-height: 18px;
-  width: 400px;
+.botao{
+  background-color: #2C566C;
+  color: #ffffff;
+  font-size: 23px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
 }
