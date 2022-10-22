@@ -132,37 +132,45 @@ h2{
   line-height: 10px;
 }
 
-#cachorro{
-  background-image: url(./img/img6.jpg);
+#cachorro{  
+  background-image: url(./img/capa.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: cover;   
 }
 
-#cachorro{
+#cachorro{   
   display: flex;
   justify-content: center;
+  /*background: #463C30;*/
+  height: 350px;
 }
-
+ .animais h3{
+  margin-left: 30px;
+  padding-top: 30px;
+ }
+ 
 .animais{
   font-size: 15px;
   font-weight: bold;
   color: #F5A62F;
  text-transform: uppercase;
  margin-top: 2rem;
+ padding-left: 100px;
 }
 
 .animais-estimacao{
-  color: #131212;
-  font-size: 13px;
+  color: #ffffff;
+  font-size: 15px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 400;
   width: 400px;
+  padding-right: 100px;
 }
 
 .animais-fantasticos{
-  color: #131212;
-  font-weight: 700;
-  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 18px;
   width: 400px;
 }
@@ -171,8 +179,22 @@ h2{
   background-color: #2C566C;
   color: #ffffff;
   font-size: 23px;
-  width: 100px;
+  width: 150px;
   height: 40px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.animais-direito{
+  padding-top: 48px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  width: 400px;
+}
+
+.fundofalco{
+  width: 400px;
 }
