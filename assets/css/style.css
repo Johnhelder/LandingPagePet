@@ -248,14 +248,15 @@ h5{
 
 /*footer*/
  .footer{    
-  max-width: 1024px;
+  background: #102631;
   margin: 40px auto;
  }
   
 .geral{
  display: flex;
- background: #102631;
- height: 450px;
+ max-width: 1024px;
+ justify-content: center;
+ height: 390px;
 }
  
 .dog img{  
@@ -274,9 +275,16 @@ h5{
   font-size: 15px;
   color: #ffffff;
   text-transform: uppercase;
+  padding-top: 40px;
 }
 .dias{ 
   color: #ffffff;
   font-size: 12px;
   line-height: 20px; 
+}
+
+.endereco{
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
 }
