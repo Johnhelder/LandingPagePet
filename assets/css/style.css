@@ -206,18 +206,16 @@ h2{
   width: 400px;
 }
 
- /*CARDS*/
-.alinhamento{
-  display: flex;  
-  height: 410px; 
-  width: 1024px; 
-  justify-content: center;
+ /*CARDS*/  
+.alinhamento{  
+  max-width: 1024px;
+  margin: 40px auto; 
+  height: 410px;    
 }
 
 .cards{
   display: flex;  
-  height: 410px; 
-  width: 1024px; 
+  height: 410px;  
   justify-content: center;
 }
 h4{
@@ -247,3 +245,38 @@ h5{
   font-size: 1rem;
   text-align: center; 
 } 
+
+/*footer*/
+ .footer{    
+  max-width: 1024px;
+  margin: 40px auto;
+ }
+  
+.geral{
+ display: flex;
+ background: #102631;
+ height: 450px;
+}
+ 
+.dog img{  
+  width: 250px;
+  padding-top: 50px;
+}
+
+.paragrafo{
+  width: 450px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.titulo{
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.dias{ 
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px; 
+}
