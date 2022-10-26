@@ -2,6 +2,55 @@ body{
   padding: 0;
   margin: 0;
 } 
+
+.topo{
+  display: flex;
+  justify-content: space-between;
+  background: #eeeeee;
+  height: 90px; 
+}
+
+.logo img{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 150px;
+  max-width: 38px;
+}
+.btn{
+  display: flex;
+  width: 90px;
+  height: 35px; 
+  padding-left: 20px;
+  font-size: 15px;
+  background: #2C566C;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+}
+.menu ul{ 
+  display: flex;  
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 40px; 
+}
+
+ul li a{
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #acb0b3;
+  font-weight: bold;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .oferecemos{
   display: flex;
   justify-content: center;
