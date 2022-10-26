@@ -53,10 +53,16 @@ ul, li{
 /*Fim Header*/
 
 /*banner do site*/
+.banner{
+  display: flex;
+  max-width: 1024px;
+  justify-content: center;
+  margin: 30px auto;
+}
 #banner{
   background-image: url("/assets/img/caixa.jpg");
   background-position: center center;
-  height: 450px; 
+  height: 550px; 
 }
 .oferecemos{
   display: flex;
@@ -74,7 +80,43 @@ h2{
   height: 410px; 
   width: 1024px; 
 }
+.cuidados{
+  width: 360px;
+  padding-top: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F0E413;
+}
 
+h1{
+  text-transform: uppercase;
+  font-size: 52px;
+  color: #2C566C;
+}
+
+.animalesti{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #F0E413;
+  font-weight: bold; 
+
+}
+
+.btncuidar{
+  display: block;
+  background: #102631;
+  color: #ffffff;
+  font-size: 25px;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.cachorroegato{
+  height: 250px;
+}
 .conteudo{
   flex: 1;
    
@@ -306,6 +348,8 @@ h5{
  .footer{    
   background: #102631;
   margin: 40px auto;
+  margin: 0;
+  padding: 0;
  }
   
 .geral{
