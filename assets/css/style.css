@@ -2,7 +2,7 @@ body{
   padding: 0;
   margin: 0;
 } 
-
+/*Header*/
 .topo{
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@ body{
   align-items: center;
   padding-top: 20px;
   padding-left: 150px;
-  max-width: 38px;
+  max-width: 48px;
 }
 .btn{
   display: flex;
@@ -50,13 +50,20 @@ ul, li{
   margin: 0;
   padding: 0;
 }
+/*Fim Header*/
 
+/*banner do site*/
+#banner{
+  background-image: url("/assets/img/caixa.jpg");
+  background-position: center center;
+  height: 450px; 
+}
 .oferecemos{
   display: flex;
-  justify-content: center;
+  justify-content: center;   
 }
 
-h2{
+h2{ 
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem; 
