@@ -2,6 +2,7 @@
 <div align="center">
 <img src="https://user-images.githubusercontent.com/11904100/198418691-9046594e-9508-48c2-a88d-951ffe8cd3cb.png" max-width="100%">
 </div>
+<a target="_blank" href="https://landing-page-pet-shop.netlify.app/" align="center" rel="nofollow">Link para o projeto</a>
 <h2>Proprosito de criar Landing Page para pet shop</h2>
 <p>Oferecer um melhor atendimento aos donos de animais, dando dicas de como cuidar do seu animalzinho, alimentação
 adequada, vacinação no tempo certo. Diferencial pessoas qualificadas que cuida dos animais com carinho e respeito.
