@@ -1,4 +1,3 @@
-# LandingPagePet
 <h1 align="center">Landing Page para pet shop</h1>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/11904100/198418691-9046594e-9508-48c2-a88d-951ffe8cd3cb.png" max-width="100%">
